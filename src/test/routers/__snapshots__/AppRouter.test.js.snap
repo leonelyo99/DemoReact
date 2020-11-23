@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <Private/> debe de mostrar el login si no esta autenticado 1`] = `
+<div>
+  <div
+    className="container mt-5"
+  >
+    <h1>
+      Login
+    </h1>
+    <hr />
+    <form
+      onSubmit={[Function]}
+    >
+      <input
+        autoComplete="off"
+        className="form-control"
+        name="name"
+        onChange={[Function]}
+        placeholder="Write your name"
+        type="text"
+        value=""
+      />
+      <button
+        className="btn btn-primary mt-4"
+        type="submit"
+      >
+        Login
+      </button>
+    </form>
+  </div>
+</div>
+`;
